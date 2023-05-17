@@ -7,6 +7,11 @@ function App() {
   const dictionary = useDictionary();
   return (
     <div className="app">
+      <div className="header">
+      <div>
+        List of words
+      </div>
+      </div>
       <div className="content">
         <List items={dictionary} />
       </div>
